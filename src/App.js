@@ -17,7 +17,7 @@ function App() {
             <Nav>
               <Nav.Link href="/">About</Nav.Link>
               <Nav.Link href={cv} target="_blank" rel="noreferrer">CV</Nav.Link>
-              <Nav.Link href="/blog">Blog</Nav.Link>
+              {/* <Nav.Link href="/blog">Blog</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
