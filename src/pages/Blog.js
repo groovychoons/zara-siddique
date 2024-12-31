@@ -2,10 +2,19 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import blogPosts from "../data/blogData";
+import { Helmet } from "react-helmet-async";
 
 function Blog() {
   return (
     <Container className="px-5">
+      <Helmet>
+        <title>Blog | Zara Siddique</title>
+        <meta name="description" content="Read Zara Siddique's latest blogs on NLP, AI, and machine learning." />
+        <meta name="keywords" content="Zara Siddique, Blog, NLP, AI, ML" />
+        <meta property="og:title" content="Blog | Zara Siddique" />
+        <meta property="og:description" content="Read Zara Siddique's latest blogs on NLP, AI, and machine learning." />
+        <meta property="og:url" content="https://zarasiddique.com/blog" />
+      </Helmet>
       <h1 className="mb-4 text-center">Blog</h1>
       <Row>
         {blogPosts.map((post) => (

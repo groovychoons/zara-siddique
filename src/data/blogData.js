@@ -7,6 +7,7 @@ const blogPosts = [
     date: "31st Dec 2024",
     slug: "my-favourite-emnlp-papers",
     excerpt: "A silly list of papers I liked that I discovered at EMNLP 2024.",
+    image: "https://zarasiddique.com/static/media/1_raccoons.f66e8ff5d53bd6f7f8a6.png",
     component: EMNLP
   }
 ];
