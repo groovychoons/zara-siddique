@@ -56,14 +56,33 @@ function About() {
           <p>If you'd like to know more about me, my CV is linked above.</p>
           <h2>Publications</h2>
           <ul>
-            <li>
-              <a href="https://arxiv.org/abs/2407.06917">
+          <li>
+              <a href="https://aclanthology.org/2024.emnlp-main.1035/">
                 Who is better at math, Jenny or Jingzhen? Uncovering Stereotypes
                 in Large Language Models
               </a>
               <p>
                 <strong>Zara Siddique,</strong> Liam D. Turner, Luis
                 Espinosa-Anke (EMNLP 2024).
+              </p>
+            </li>
+            <hr />
+            <li>
+              <a href="https://arxiv.org/abs/2412.15375">
+                Automatic Extraction of Metaphoric Analogies from Literary Texts: Task Formulation, Dataset Construction, and Evaluation
+              </a>
+              <p>
+                Joanne Boisson, <strong>Zara Siddique,</strong> Hsuvas Borkakoty, Dimosthenis Antypas, Luis Espinosa Anke, Jose Camacho-Collados
+                (COLING 2025).
+              </p>
+            </li>
+
+            <li>
+              <a href="https://aclanthology.org/2024.conll-1.28/">   
+              How Are Metaphors Processed by Language Models? The Case of Analogies
+              </a>
+              <p>
+              Joanne Boisson, Asahi Ushio, Hsuvas Borkakoty, Kiamehr Rezaee, Dimosthenis Antypas, <strong>Zara Siddique,</strong> Nina White, Jose Camacho-Collados (CoNLL 2024).
               </p>
             </li>
           </ul>
