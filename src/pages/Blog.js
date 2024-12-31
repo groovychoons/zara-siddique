@@ -9,11 +9,15 @@ function Blog() {
     <Container className="px-5">
       <Helmet>
         <title>Blog | Zara Siddique</title>
-        <meta name="description" content="Read Zara Siddique's latest blogs on NLP, AI, and machine learning." />
+        <meta name="description" content="Read Zara Siddique's latest blogs," />
         <meta name="keywords" content="Zara Siddique, Blog, NLP, AI, ML" />
         <meta property="og:title" content="Blog | Zara Siddique" />
-        <meta property="og:description" content="Read Zara Siddique's latest blogs on NLP, AI, and machine learning." />
+        <meta property="og:description" content="Read Zara Siddique's latest blogs." />
         <meta property="og:url" content="https://zarasiddique.com/blog" />
+
+        <meta name="twitter:title" content="Blog | Zara Siddique" />
+        <meta name="twitter:description" content="Read Zara Siddique's latest blogs." />
+        <meta name="twitter:url" content="https://zarasiddique.com/blog" />
       </Helmet>
       <h1 className="mb-4 text-center">Blog</h1>
       <Row>
