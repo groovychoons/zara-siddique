@@ -28,12 +28,12 @@ function BlogPost() {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:url" content={`https://zarasiddique.com/blog/${post.slug}`} />
-        <meta property="og:image" content={post.image} />
+        {post.image ? <meta property="og:image" content={post.image} /> : null}
 
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.excerpt} />
         <meta name="twitter:url" content={`https://zarasiddique.com/blog/${post.slug}`} />
-        <meta name="twitter:image" content={post.image} />
+        {post.image ? <meta name="twitter:image" content={post.image} /> : null}
         </Helmet>
       <PostComponent />
     </Container>
