@@ -57,6 +57,15 @@ function About() {
           <h2>Publications</h2>
           <ul>
           <li>
+              <a href="https://github.com/groovychoons/shifting-perspectives">
+                Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
+              </a>
+              <p>
+                <strong>Zara Siddique,</strong>, Irtaza Khalid, Liam D. Turner, Luis
+                Espinosa-Anke.
+              </p>
+            </li>
+          <li>
               <a href="https://aclanthology.org/2024.emnlp-main.1035/">
                 Who is better at math, Jenny or Jingzhen? Uncovering Stereotypes
                 in Large Language Models
@@ -86,6 +95,13 @@ function About() {
               </p>
             </li>
           </ul>
+          <br />
+          <h2>Other Stuff</h2>
+          <p>
+            I also used to run the book club Lez Read, which is currently on hiatus.
+            I made a silly little website for it <a href="https://lezread.co.uk/">here</a>, which I'm quite proud of.
+          </p>
+          <br />
         </Col>
 
         {/* Empty column on the right */}
