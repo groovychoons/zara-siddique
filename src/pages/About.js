@@ -57,7 +57,7 @@ function About() {
           <h2>Publications</h2>
           <ul>
           <li>
-              <a href="https://github.com/groovychoons/shifting-perspectives">
+              <a href="https://arxiv.org/abs/2503.05371">
                 Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
               </a>
               <p>
