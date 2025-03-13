@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import blogPosts from "../data/blogData";
 import { Helmet } from "react-helmet-async";
@@ -9,35 +9,27 @@ function Blog() {
     <Container className="px-5">
       <Helmet>
         <title>Blog | Zara Siddique</title>
-        <meta name="description" content="Read Zara Siddique's latest blogs," />
+        <meta name="description" content="Read Zara Siddique's latest blogs." />
         <meta name="keywords" content="Zara Siddique, Blog, NLP, AI, ML" />
         <meta property="og:title" content="Blog | Zara Siddique" />
         <meta property="og:description" content="Read Zara Siddique's latest blogs." />
         <meta property="og:url" content="https://zarasiddique.com/blog" />
-
         <meta name="twitter:title" content="Blog | Zara Siddique" />
         <meta name="twitter:description" content="Read Zara Siddique's latest blogs." />
         <meta name="twitter:url" content="https://zarasiddique.com/blog" />
       </Helmet>
-      <h1 className="mb-4 text-center">Blog</h1>
-      <Row>
+
+      <h1 className="mb-4">Blog</h1>
+      <ul className="ps-4">
         {blogPosts.map((post) => (
-          <Col md={4} key={post.id} className="mb-4">
-            <Card className="h-100 shadow-sm border-0 text-center">
-              <Card.Body className="d-flex flex-column">
-                <Card.Title className="mb-3 text-primary">{post.title}</Card.Title>
-                <Card.Subtitle className="mb-3 text-muted">{post.date}</Card.Subtitle>
-                <Card.Text className="mb-4">{post.excerpt}</Card.Text>
-                <div className="mt-auto">
-                  <Link to={`/blog/${post.slug}`} className="btn btn-outline-primary">
-                    Read More
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
+          <li key={post.id} className="mb-2">
+            <span className="text-muted">{post.date}</span> -{" "}
+            <Link to={`/blog/${post.slug}`} className="text-primary">
+              {post.title}
+            </Link>
+          </li>
         ))}
-      </Row>
+      </ul>
     </Container>
   );
 }

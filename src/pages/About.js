@@ -47,7 +47,7 @@ function About() {
         {/* Main content column */}
         <Col md={6}>
           <p>
-            I'm a third-year PhD student at Cardiff University in the{" "}
+            I'm a fourth-year PhD student at Cardiff University in the{" "}
             <a href="https://cardiffnlp.github.io/">Cardiff NLP</a> Group. My
             research focuses on intersectional harms in LLMs, looking
             specifically at how we can measure and mitigate these harms in NLP

@@ -7,7 +7,7 @@ function Post1() {
             <Row className="mb-4">
                 <Col md={12} lg={10}>
                     <h1>My Favourite EMNLP 2024 Papers</h1>
-                    <p className="text-muted">Published on 31st Dec 2024</p>
+                    <p className="text-muted">31st Dec 2024</p>
 
                     <p>I attended my first major NLP conference this year: EMNLP in Miami. I learned a lot, met a lot of cool people and Miami was lush! ☀️🏝️🪩</p>
                     <p>I thought I would share some of my favourite papers I came across during the conference: some from the main conference and others from workshops and co-located things. Note: these are not necessarily the 'best' papers from the conference, simply ones I found fun and/or interesting by some arbitrary measure. I am easily swayed by pretty posters.</p>

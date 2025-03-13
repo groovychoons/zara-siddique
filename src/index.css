@@ -24,3 +24,7 @@ h2 {
   background-color: rgb(245, 249, 249);
   min-height: 100vh;
 }
+
+a {
+  text-decoration: none !important;
+}
