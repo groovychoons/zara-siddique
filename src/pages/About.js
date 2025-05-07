@@ -62,7 +62,7 @@ function About() {
                 Dialz: A Python Toolkit for Steering Vectors
               </a>
               <p>
-                <strong>Zara Siddique,</strong>, Liam D. Turner, Luis
+                <strong>Zara Siddique,</strong> Liam D. Turner, Luis
                 Espinosa-Anke.
               </p>
             </li>
@@ -71,7 +71,7 @@ function About() {
                 Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
               </a>
               <p>
-                <strong>Zara Siddique,</strong>, Irtaza Khalid, Liam D. Turner, Luis
+                <strong>Zara Siddique,</strong> Irtaza Khalid, Liam D. Turner, Luis
                 Espinosa-Anke.
               </p>
             </li>
