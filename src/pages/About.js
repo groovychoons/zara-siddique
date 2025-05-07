@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import dialz from "./../assets/Dialz Paper.pdf";
 
 function About() {
   return (
@@ -56,6 +57,15 @@ function About() {
           <p>If you'd like to know more about me, my CV is linked above.</p>
           <h2>Publications</h2>
           <ul>
+          <li>
+              <a href={dialz} target="_blank" rel="noreferrer">
+                Dialz: A Python Toolkit for Steering Vectors
+              </a>
+              <p>
+                <strong>Zara Siddique,</strong>, Liam D. Turner, Luis
+                Espinosa-Anke.
+              </p>
+            </li>
           <li>
               <a href="https://arxiv.org/abs/2503.05371">
                 Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
