@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import dialz from "./../assets/Dialz Paper.pdf";
 
 function About() {
   return (
@@ -57,8 +56,8 @@ function About() {
           <p>If you'd like to know more about me, my CV is linked above.</p>
           <h2>Publications</h2>
           <ul>
-          <li>
-              <a href={dialz} target="_blank" rel="noreferrer">
+            <li>
+              <a href="https://arxiv.org/abs/2505.06262">
                 Dialz: A Python Toolkit for Steering Vectors
               </a>
               <p>
@@ -66,7 +65,7 @@ function About() {
                 Espinosa-Anke.
               </p>
             </li>
-          <li>
+            <li>
               <a href="https://arxiv.org/abs/2503.05371">
                 Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
               </a>
@@ -75,7 +74,7 @@ function About() {
                 Espinosa-Anke.
               </p>
             </li>
-          <li>
+            <li>
               <a href="https://aclanthology.org/2024.emnlp-main.1035/">
                 Who is better at math, Jenny or Jingzhen? Uncovering Stereotypes
                 in Large Language Models
@@ -97,11 +96,11 @@ function About() {
             </li>
 
             <li>
-              <a href="https://aclanthology.org/2024.conll-1.28/">   
-              How Are Metaphors Processed by Language Models? The Case of Analogies
+              <a href="https://aclanthology.org/2024.conll-1.28/">
+                How Are Metaphors Processed by Language Models? The Case of Analogies
               </a>
               <p>
-              Joanne Boisson, Asahi Ushio, Hsuvas Borkakoty, Kiamehr Rezaee, Dimosthenis Antypas, <strong>Zara Siddique,</strong> Nina White, Jose Camacho-Collados (CoNLL 2024).
+                Joanne Boisson, Asahi Ushio, Hsuvas Borkakoty, Kiamehr Rezaee, Dimosthenis Antypas, <strong>Zara Siddique,</strong> Nina White, Jose Camacho-Collados (CoNLL 2024).
               </p>
             </li>
           </ul>
