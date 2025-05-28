@@ -62,7 +62,7 @@ function About() {
               </a>
               <p>
                 <strong>Zara Siddique,</strong> Liam D. Turner, Luis
-                Espinosa-Anke.
+                Espinosa-Anke (ACL System Demo 2025).
               </p>
             </li>
             <li>
