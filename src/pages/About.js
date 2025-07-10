@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaBluesky, FaGoogleScholar } from "react-icons/fa6";
 
 function About() {
   return (
@@ -20,12 +21,20 @@ function About() {
 
           <div className="my-3">
             <a
+              href="https://bsky.app/profile/zarasiddique.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaBluesky size={24} className="me-3" />
+            </a>
+            <a
               href="https://www.linkedin.com/in/zarasiddique"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin size={24} className="me-3" />
             </a>
+
             <a
               href="https://twitter.com/thezarasiddique"
               target="_blank"
@@ -33,12 +42,22 @@ function About() {
             >
               <FaTwitter size={24} className="me-3" />
             </a>
+
+          </div>
+          <div className="mb-3">
             <a
               href="https://github.com/groovychoons"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} />
+              <FaGithub size={24} className="me-3"/>
+            </a>
+            <a
+              href="https://scholar.google.co.uk/citations?user=B_LyqWEAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGoogleScholar size={24} className="me-3"/>
             </a>
           </div>
         </Col>
