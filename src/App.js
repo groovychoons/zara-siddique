@@ -7,6 +7,8 @@ import About from './pages/About';
 import CV from './pages/CV';
 import Blog from './pages/Blog';
 import BlogPost from "./pages/BlogPost";
+import Dialz from "./pages/Dialz";
+
 import cv from "./assets/Zara Siddique CV.pdf";
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
                 <Nav.Link href="/">About</Nav.Link>
                 <Nav.Link href={cv} target="_blank" rel="noreferrer">CV</Nav.Link>
                 <Nav.Link href="/blog">Blog</Nav.Link>
+                <Nav.Link href="/dialz">Dialz</Nav.Link>
+
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -61,6 +65,7 @@ function App() {
             <Route path="/cv" element={<CV />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/dialz" element={<Dialz />} />
           </Routes>
         </Container>
       </HelmetProvider>
