@@ -1,5 +1,4 @@
 import EMNLP from "../posts/EMNLP";
-import ShiftingPerspectives from "../posts/ShiftingPerspectives";
 
 const blogPosts = [
   // {
