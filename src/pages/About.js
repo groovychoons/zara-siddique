@@ -86,7 +86,7 @@ function About() {
             </li>
             <li>
               <a href="https://arxiv.org/abs/2503.05371">
-                Shifting Perspectives: Steering Vector Ensembles for Robust Bias Mitigation in LLMs
+                Shifting Perspectives: Steering Vectors for Robust Bias Mitigation in LLMs
               </a>
               <p>
                 <strong>Zara Siddique,</strong> Irtaza Khalid, Liam D. Turner, Luis
