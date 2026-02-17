@@ -50,14 +50,14 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} className="me-3"/>
+              <FaGithub size={24} className="me-3" />
             </a>
             <a
               href="https://scholar.google.co.uk/citations?user=B_LyqWEAAAAJ&hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGoogleScholar size={24} className="me-3"/>
+              <FaGoogleScholar size={24} className="me-3" />
             </a>
           </div>
         </Col>
@@ -76,21 +76,21 @@ function About() {
           <h2>Publications</h2>
           <ul>
             <li>
+              <a href="https://arxiv.org/abs/2503.05371">
+                Shifting Perspectives: Steering Vectors for Robust Bias Mitigation in LLMs
+              </a>
+              <p>
+                <strong>Zara Siddique,</strong> Irtaza Khalid, Liam D. Turner, Luis
+                Espinosa-Anke (EACL 2026).
+              </p>
+            </li>
+            <li>
               <a href="https://arxiv.org/abs/2505.06262">
                 Dialz: A Python Toolkit for Steering Vectors
               </a>
               <p>
                 <strong>Zara Siddique,</strong> Liam D. Turner, Luis
                 Espinosa-Anke (ACL System Demo 2025).
-              </p>
-            </li>
-            <li>
-              <a href="https://arxiv.org/abs/2503.05371">
-                Shifting Perspectives: Steering Vectors for Robust Bias Mitigation in LLMs
-              </a>
-              <p>
-                <strong>Zara Siddique,</strong> Irtaza Khalid, Liam D. Turner, Luis
-                Espinosa-Anke.
               </p>
             </li>
             <li>
@@ -127,7 +127,8 @@ function About() {
           <h2>Other Stuff</h2>
           <p>
             I also used to run the book club Lez Read, which is currently on hiatus.
-            I made a silly little website for it <a href="https://lezread.co.uk/">here</a>, which I'm quite proud of.
+            I made a silly little website for it <a href="https://lezread.co.uk/">here </a>
+            and now manage <a href="https://cardiffbooknook.com/">Cardiff Book Nook</a>.
           </p>
           <br />
         </Col>
