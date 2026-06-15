@@ -65,71 +65,28 @@ function About() {
 
         {/* Main content column */}
         <Col md={6}>
+          <p> Hi! I'm Zara. </p>
           <p>
-            I'm a fourth-year PhD student at Cardiff University in the{" "}
+            I recently completed a PhD  at Cardiff University in the{" "}
             <a href="https://cardiffnlp.github.io/">Cardiff NLP</a> Group. My
-            research focuses on intersectional harms in LLMs, looking
+            research focused on intersectional harms in LLMs, looking
             specifically at how we can measure and mitigate these harms in NLP
             systems.
           </p>
-          <p>If you'd like to know more about me, my CV is linked above.</p>
-          <h2>Publications</h2>
-          <ul>
-            <li>
-              <a href="https://arxiv.org/abs/2503.05371">
-                Shifting Perspectives: Steering Vectors for Robust Bias Mitigation in LLMs
-              </a>
-              <p>
-                <strong>Zara Siddique,</strong> Irtaza Khalid, Liam D. Turner, Luis
-                Espinosa-Anke (EACL 2026).
-              </p>
-            </li>
-            <li>
-              <a href="https://arxiv.org/abs/2505.06262">
-                Dialz: A Python Toolkit for Steering Vectors
-              </a>
-              <p>
-                <strong>Zara Siddique,</strong> Liam D. Turner, Luis
-                Espinosa-Anke (ACL System Demo 2025).
-              </p>
-            </li>
-            <li>
-              <a href="https://aclanthology.org/2024.emnlp-main.1035/">
-                Who is better at math, Jenny or Jingzhen? Uncovering Stereotypes
-                in Large Language Models
-              </a>
-              <p>
-                <strong>Zara Siddique,</strong> Liam D. Turner, Luis
-                Espinosa-Anke (EMNLP 2024).
-              </p>
-            </li>
-            <hr />
-            <li>
-              <a href="https://arxiv.org/abs/2412.15375">
-                Automatic Extraction of Metaphoric Analogies from Literary Texts: Task Formulation, Dataset Construction, and Evaluation
-              </a>
-              <p>
-                Joanne Boisson, <strong>Zara Siddique,</strong> Hsuvas Borkakoty, Dimosthenis Antypas, Luis Espinosa Anke, Jose Camacho-Collados
-                (COLING 2025).
-              </p>
-            </li>
-
-            <li>
-              <a href="https://aclanthology.org/2024.conll-1.28/">
-                How Are Metaphors Processed by Language Models? The Case of Analogies
-              </a>
-              <p>
-                Joanne Boisson, Asahi Ushio, Hsuvas Borkakoty, Kiamehr Rezaee, Dimosthenis Antypas, <strong>Zara Siddique,</strong> Nina White, Jose Camacho-Collados (CoNLL 2024).
-              </p>
-            </li>
-          </ul>
-          <br />
+          <p>
+            Now I'm building <a href="https://sproutacademy.co.uk/">Sprout Academy</a>,
+            an educational adventure app for ages 5 to 8, built on the UK National Curriculum.
+          </p>
+          <p>I'm also a Research Associate on the <a href="https://www.scaleresearchwales.org/sweet/">SWEET project</a> at Cardiff University.</p>
+          <p>If you'd like to know more about me, a list of my publications and my CV are linked above.</p>
+          <hr />
           <h2>Other Stuff</h2>
           <p>
             I also used to run the book club Lez Read, which is currently on hiatus.
             I made a silly little website for it <a href="https://lezread.co.uk/">here </a>
             and now manage <a href="https://cardiffbooknook.com/">Cardiff Book Nook</a>.
           </p>
+          <p>If you'd like to get in contact with me, I respond fastest via email or LinkedIn.</p>
           <br />
         </Col>
 
